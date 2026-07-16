@@ -8,13 +8,14 @@ int main(void)
 {
 	char letter;
 
+	char capletter;
+
 	for (letter = 'a' ; letter <= 'z' ; letter++)
+
+	for (capletter = 'A' ; capletter <= 'Z' ; capletter++)
 {
 	putchar(letter);
 }
-	char capletter;
-
-	for (capletter = 'A' ; capletter <= 'Z' ; capletter++)
 {
 	putchar(capletter);
 }
