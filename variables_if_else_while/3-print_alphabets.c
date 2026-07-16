@@ -15,8 +15,6 @@ int main(void)
 	for (capletter = 'A' ; capletter <= 'Z' ; capletter++)
 {
 	putchar(letter);
-}
-{
 	putchar(capletter);
 }
 	putchar('\n');
