@@ -5,11 +5,11 @@
 * Return: Always 0 (success)
 */
 
-int main(void)
-{
-	void print_alphabet(void);
+
+void print_alphabet(void);
 {
 	char letter;
+
 	for (letter = 'a' ; letter <= 'z' ; letter++)
 {
 	_putchar(letter);
@@ -17,5 +17,3 @@ int main(void)
 	_putchar('\n');
 }
 
-	return (0);
-}
