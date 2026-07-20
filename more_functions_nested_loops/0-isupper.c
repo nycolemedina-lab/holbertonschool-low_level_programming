@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 /**
 * _isupper - Checks for upper character
 * @c: The character to chack
