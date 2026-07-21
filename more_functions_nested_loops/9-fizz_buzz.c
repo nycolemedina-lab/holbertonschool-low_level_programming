@@ -23,7 +23,7 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		if (a != 100
+		if (a != 100)
 		{
 			printf(' ');
 		}
