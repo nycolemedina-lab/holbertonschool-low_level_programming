@@ -1,0 +1,34 @@
+#include <stdio.h>
+/**
+* main - prints numbers from 1 to 100, replace multiples of 3 with Fizz,
+*	multiples of 5 with Buzz and multiples of both with FizzBuzz
+*
+* Return: void
+*/
+int main(void)
+{
+	int a;
+
+	for(a = 0 ; a < 100 ; a++)
+	{
+		if (a %  3 == 0 && a % 5 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (a % 3 == 0)
+		{
+			printf("Fizz");
+		}
+		else if (a % 5 == 0)
+		{
+			printf("Buzz");
+		}
+		if (a != 100
+		{
+			printf(' ');
+		}
+	}
+	printf("\n");
+
+	return (0);
+}
