@@ -9,7 +9,7 @@ void puts2(char *str)
 {
 	while (*str != '\0')
 	{
-		_putchat(*str);
+		_putchar(*str);
 		str++;
 		str++;
 	}
