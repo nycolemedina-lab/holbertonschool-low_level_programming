@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* put_half - prtints the second half of a string, followed by a new line
+* puts_half - prtints the second half of a string, followed by a new line
 * @str: pointer with the string
 *
 * Return: void
