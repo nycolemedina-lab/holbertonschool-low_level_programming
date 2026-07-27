@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * cap_string - capitalizes all words of a string
-* @s; thring to modify
+* @s: thring to modify
 *
 * Return: pointer to the modified string
 */
