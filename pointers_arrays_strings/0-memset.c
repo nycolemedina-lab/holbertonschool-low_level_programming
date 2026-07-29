@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* memset - fills the first n byte of the memory area pointed by with the costant byte b
+* _memset - fills the first n byte of the memory area pointed by with the costant byte b
 * @s: memory area to filled
 * @b: byte to fill with
 * @n: number of byte to fill
