@@ -20,17 +20,17 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (s[a] == accept[b])
 			{
-				fount = 1;
+				found = 1;
 				break;
 			}
 		}
 		if (found == 1)
 		{
-			count++
+			count++;
 		}
 		else
 		{
-			breack;
+			break;
 		}
 	}
 	return (count);
