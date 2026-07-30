@@ -15,8 +15,8 @@ void print_diagsums(int *a, int size)
 
 	for (z = 0; z < size; z++)
 	{
-		sum += a[z * size + z];
-		sum += a[z * size + (size - 1 - z)];
+		sum1 += a[z * size + z];
+		sum2 += a[z * size + (size - 1 - z)];
 	}
 	printf("%d, %d\n", sum1, sum2);
 
