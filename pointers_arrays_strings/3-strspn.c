@@ -1,10 +1,10 @@
 #include "main.h"
 /**
+* _strspn - gets the length of a prefix substring
+* @s: string to check
+* @accept: prefix substring
 *
-*
-*
-*
-*
+* Return: the number of bytes id s which consist only of bytes from accept
 */
 unsigned int _strspn(char *s, char *accept)
 {
