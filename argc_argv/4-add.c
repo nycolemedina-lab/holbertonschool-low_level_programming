@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	for(y = 1; y < argc; y++)
+	for (y = 1; y < argc; y++)
 	{
 		for (x = 0; argv[y][x] != '\0'; x++)
 		{
