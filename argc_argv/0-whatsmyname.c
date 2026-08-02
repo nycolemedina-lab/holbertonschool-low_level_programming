@@ -4,7 +4,7 @@
 * main - print the name of the progran
 * @argc: the number of command line arguments
 * @argv: array containing the command line arguments
-* 
+*
 * Return - 0 if success
 */
 int main(int argc, char* argv[])
