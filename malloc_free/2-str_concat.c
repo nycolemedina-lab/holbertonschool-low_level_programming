@@ -4,7 +4,7 @@
 /**
 * str_concat - cancatenate two stings
 * @s1: frirst string
-* @str2: second string
+* @s2: second string
 *
 * Return: pointer to newly allocated space whith cancatenated strin,
 *	or NULL pn failure
