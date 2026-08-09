@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* array_rage - creates an array if integers from min to max
+* array_range - creates an array if integers from min to max
 * @min: starting integer (included)
 * @max: ending integer (included
 *
