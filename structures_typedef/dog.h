@@ -4,7 +4,7 @@
 
 
 /**
-* stuct dog - a dogs basic info
+* struct dog - a dogs basic info
 * @name: first member (string)
 * @age: second member (float)
 * @owner: third member (string)
