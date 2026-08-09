@@ -3,10 +3,16 @@
 
 
 
+/**
+* stuct dog - a dogs basic info
+* @name: first member (string)
+* @age: second member (float)
+* @owner: third member (string)
+*/
 struct dog
 {
 	char *name;
-	float *age;
+	float age;
 	char *owner;
 };
 
