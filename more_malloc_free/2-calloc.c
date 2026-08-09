@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
+
 /**
 * _calloc - allocates memory for any array using malloc
 * @nmemb: number of elements
@@ -12,7 +12,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 {
 
 	void *ptr;
-	unsigned int total;
+	unsigned int total, a;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
@@ -25,7 +25,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (ptr == NULL)
 		return (NULL);
 
-	memset(ptr, 0, total);
+	for (a = 0; a < total; a++)
+	{
+		ptr[a] = 0;
+	}
 
 	return (ptr);
 
