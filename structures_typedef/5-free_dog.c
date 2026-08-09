@@ -4,15 +4,15 @@
 * free_dog - free a pointer
 * @d: pointer to free
 *
-*
-*
-*
-*
 */
 void free_dog(dog_t *d)
 {
-	free(d);
+	if (d == NULL)
+		return;
 
+	free(d->name);
+	free(d->owner);
+	free(d);
 
 
 }
