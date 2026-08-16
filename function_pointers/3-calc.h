@@ -1,6 +1,5 @@
-#ifndef 3-CALC.H
-#define 3-CALC.H
-
+#ifndef CALC_H
+#define CALC_H
 
 
 

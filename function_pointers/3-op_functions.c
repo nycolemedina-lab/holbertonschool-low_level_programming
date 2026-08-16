@@ -1,4 +1,4 @@
-#include "3-calc.h"
+#include "calc.h"
 
 /**
 * op_add - calculate the sum of two integers
