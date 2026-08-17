@@ -6,7 +6,7 @@
 * @symbol: format specifier symbol (c, i, f, s)
 * @print: function pointer to corresponding print function
 */
-typedef struc printer
+typedef struct printer
 {
 	char *symbol;
 	void (*print)(va_list arg);
