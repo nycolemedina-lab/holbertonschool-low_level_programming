@@ -13,8 +13,8 @@
         while (head != NULL)
         {
             tmp = head->next;
-            free(head);
             free(head->str);
+            free(head);
             head = tmp;
             
         }
