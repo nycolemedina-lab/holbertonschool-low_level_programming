@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-* get_dlistint_at_index - return the nth node of a dlistin_t linked list
+* get_dnodeint_at_index - return the nth node of a dlistin_t linked list
 * @head: pointer to the head of the doubly linked list
 * @index: index of the node, starting from 0
 *
