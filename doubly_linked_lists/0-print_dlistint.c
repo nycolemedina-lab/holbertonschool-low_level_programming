@@ -2,21 +2,20 @@
 
 /**
 * print_dlistint - print all elements of a dlistint_t list
-* @h: pointer to list
+* @h: pointer to the head of the doubly linked list
 *
-* Return the number of nodes
+* Return: the number of nodes in the list
 */
 size_t print_dlistint(const dlistint_t *h)
 {
-	dlistint_t *tmp;
-	int count = 0;
-	tmp = *h;
+	size_t count = 0;
 
-	while (tmp != NULL)
+
+	while (h != NULL)
 	{
-		printf("%d", tmp->n);
-		tmp = tmp->next;
+		printf("%d\n", h->n);
 		count++;
+		h = h->next;
 	}
 	return (count);
 }
