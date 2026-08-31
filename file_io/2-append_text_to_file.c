@@ -29,7 +29,7 @@ int append_text_to_file(const char *filename, char *text_content)
 		if (bytes_wr == -1 || bytes_wr != len)
 		{
 			close(fd);
-			return(-1);
+			return (-1);
 		}
 	}
 	close(fd);
