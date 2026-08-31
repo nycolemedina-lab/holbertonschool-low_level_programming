@@ -10,7 +10,6 @@ int main(int argc, char *argv[])
 	int fd_from, fd_to;
 	ssize_t bytes_rd, bytes_wr;
 	char buffer[1024];
-
 	if (argc != 3)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
 
