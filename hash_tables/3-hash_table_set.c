@@ -14,10 +14,10 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *value_copy, *key_copy;
 	unsigned long int index;
 
-	if (ht == NULL || key == NULL || *key= == '\0' || value == NULL)
+	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 		return (0);
 
-	value_copy = strdupvalue);
+	value_copy = strdup(value);
 	if (value_copy == NULL)
 		return (0);
 
